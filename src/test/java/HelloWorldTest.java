@@ -15,7 +15,7 @@ class HelloWorldTest {
         } finally {
             System.setOut(original);
         }
-        assertEquals("Hello from Jenkins CI Pipeline! Version 1." + System.lineSeparator(),
+        assertEquals("Hello from Jenkins CI Pipeline! Version 2." + System.lineSeparator(),
                 output.toString(StandardCharsets.UTF_8));
     }
 }
